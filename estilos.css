@@ -1,0 +1,348 @@
+body{
+    background-color: bisque;
+}
+
+
+a{
+    /* color:rgb(43, 57, 188); */
+    -webkit-text-stroke: 2px black;
+}
+
+/* GLOSARIO LLEVA A LA INFORMACION */
+nav{
+    display: block;
+    overflow: auto;
+    /* color: rgb(203, 20, 254); */
+    -webkit-text-stroke: 2px black;
+    justify-content: space-around;
+}
+
+ul{
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+li{
+    font-family: 'Dancing Script', cursive;
+    list-style:none;
+}
+
+ul li{
+    display:none;
+    font-size: 4vw;
+    
+}
+
+ul:hover li{
+    display:block;
+    font-size: 20px;
+    
+}
+
+#GlosarioGuia{
+    padding: 10px;
+    width: 85%;
+    height: 500px;
+    
+    outline: 10px solid white;
+    outline-offset: 3px ;
+    font-size: 4vw;
+    border-radius: 5px;
+    margin: auto;
+
+}
+
+/* CUADRO DE NOMBRE Y APELLIDO */
+
+section{
+
+    overflow: auto;
+    width: 50%;
+    height: 60%;
+    background-image: url(Imagenes/Nombre.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    outline: 20px inset gold;
+    text-align: center;
+    margin: 5%;
+    text-transform: uppercase;
+    text-shadow: 6px 4px 2px gold;
+    white-space: normal;
+    font-size: 4vw;
+    -webkit-text-stroke: 4px black;
+    float: left;
+}
+
+/* BOTON CAMBIO COLOR */
+
+button{
+    margin: 30px;
+}
+
+/* CUADRO DE FOTO Y NOMBRE */
+
+header{
+    overflow: auto;
+    height: 100%;
+}
+
+#header1{
+    
+    overflow: auto;
+    
+    border: 2px solid white;
+    width: 90%;
+    height: 100%;
+    background: linear-gradient(0deg, #04f7fb, white, #04f7fb);
+    margin: auto;
+    
+    
+   
+}
+
+#FotoPresentacion{
+    
+    width: 23%;
+    height: 250px;
+    border: 2px dashed black;
+    border-radius: 150px;
+    background-image: url(Imagenes/perfilCV.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    overflow: auto;
+    margin: 5%;
+    
+}
+
+
+/* PRESENTACION */
+
+#cajaPresentacion{
+    padding: 15px;
+    margin: auto;
+    height: 100%;
+    width: 90%;
+    background-image: url(Imagenes/Presentacion.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 100%;
+    
+    margin-bottom: 80px;
+    
+}
+
+#tituloPresentacion{
+    -webkit-text-stroke: 4px black;
+
+    text-align: center;
+    
+    font-size: 70px;
+}
+
+#textoPresentacion{
+    color: black;
+    text-align: justify;
+    line-height: 1.6;
+    white-space: normal;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    
+
+    
+}
+
+
+
+
+
+/* TITULO DE CADA APARTADO */
+
+.claseTitulo{
+    padding: 10px;
+    color: skyblue;
+    width: 95%;
+    height: 180px;
+    text-align: center;
+    margin:  auto;
+    font-size: 70px;
+    border-radius: 5px;
+    overflow: auto;
+     
+}
+
+/* TAMAÑO DE CADA CAJA */
+
+.claseCaja{
+    padding: 1%;
+    
+    margin: 1%;
+    font-size: 20px;
+    float: left;
+    white-space: normal;
+    border-radius: 5px;
+    overflow: auto;
+    height: auto;
+    width: 45%;
+    
+
+}
+
+
+
+
+.claseCajaDireccion{
+    padding: 10px;
+    color: black;
+    width: 40%;
+    height: 500px;
+    text-align: center;
+    margin: 3%;
+    font-size: 20px;
+    float: left;
+    white-space: normal;;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+/* TEXTO DE CADA DIV INFORMACION */
+
+
+.textoDivURL{
+    margin: 3%;
+    width: 40%;
+    height: 500px;
+    text-align: center;
+}
+
+.textoCuadroDiv{
+    margin: 3%;
+    width: 40%;
+    overflow: auto;
+    text-align: center;
+}
+
+/* TITULO DIV CONOCIMIENTO  */
+
+
+
+
+
+/* Colores */
+.gris{
+    background-color: rgb(227, 55, 55);
+    -webkit-text-stroke: 4px black;
+
+    
+}
+
+.azul{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.azulTitulo{
+    /* background-color:  #115bfa; */
+    background-image: url(Imagenes/Titulo.jpg);
+    -webkit-text-stroke: 4px #04f7fb;
+    background-position: right;
+    
+}
+
+
+.FondoFantasma{
+    background-image: url(Imagenes/Fantasma.jpg);
+    -webkit-text-stroke: 2px black;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    
+    
+}
+
+.FondoCircuito{
+    background-image: url(Imagenes/Circuito.jpg);
+    -webkit-text-stroke: 2px black;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.FondoArgentina{
+    background-image: url(Imagenes/Argentina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.FondoTecno{
+    background-image: url(Imagenes/Tecno.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    -webkit-text-stroke: 2px white;
+}
+
+.FondoLampara{
+    background-image: url(Imagenes/Lampara.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    -webkit-text-stroke: 2px black;
+}
+
+.FondoEstudio{
+    background-image: url(Imagenes/Cole.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    -webkit-text-stroke: 2px rgb(81, 81, 233);
+}
+
+
+.FondoTrabajo{
+    background-image: url(Imagenes/Trabajo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    -webkit-text-stroke: 2px black;
+}
+
+.FondoComex{
+    background-image: url(Imagenes/Comex.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    -webkit-text-stroke: 2px white;
+}
+
+
+/* TERCIARIO PALABRAS QUE CAMBIAN*/
+
+.cambiarPalabra2 { 
+    /* background-color: #060606; */
+    font-family: Arial;
+    font-size: 48px;
+    color: WHITE;
+    line-height: 1.4em;
+    height: 1.4em;
+    padding: 0 14px 0 7px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+  }
+  
+  .cambiarPalabra2:before {
+    content: '';
+    background-color: white;
+    width: 1px;
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    right: 7px;
+  }
+
